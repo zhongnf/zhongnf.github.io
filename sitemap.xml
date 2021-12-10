@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2021/12/09/AbstractQueuedSynchronizer02/</loc>
+    <loc>http://https//zhongnf.github.io/2021/12/09/AbstractQueuedSynchronizer02/</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2021/12/09/AbstractQueuedSynchronizer01/</loc>
+    <loc>http://https//zhongnf.github.io/2021/12/09/AbstractQueuedSynchronizer01/</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/link/index.html</loc>
+    <loc>http://https//zhongnf.github.io/link/index.html</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/categories/index.html</loc>
+    <loc>http://https//zhongnf.github.io/categories/index.html</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/tags/index.html</loc>
+    <loc>http://https//zhongnf.github.io/tags/index.html</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2021/12/09/JVM/</loc>
+    <loc>http://https//zhongnf.github.io/2021/12/09/JVM/</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -56,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2021/12/09/Mysql/</loc>
+    <loc>http://https//zhongnf.github.io/2021/12/09/Mysql/</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/about/index.html</loc>
+    <loc>http://https//zhongnf.github.io/about/index.html</loc>
     
     <lastmod>2021-12-09</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2021/12/09/hello-world/</loc>
+    <loc>http://https//zhongnf.github.io/2021/12/09/hello-world/</loc>
     
     <lastmod>1985-10-26</lastmod>
     
@@ -84,7 +84,7 @@
   
 
   <url>
-    <loc>http://example.com/</loc>
+    <loc>http://https//zhongnf.github.io</loc>
     <lastmod>2021-12-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -92,42 +92,42 @@
 
   
   <url>
-    <loc>http://example.com/tags/AQS/</loc>
+    <loc>http://https//zhongnf.github.io/tags/AQS/</loc>
     <lastmod>2021-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
+    <loc>http://https//zhongnf.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
     <lastmod>2021-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E6%BA%90%E7%A0%81/</loc>
+    <loc>http://https//zhongnf.github.io/tags/%E6%BA%90%E7%A0%81/</loc>
     <lastmod>2021-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/sql/</loc>
+    <loc>http://https//zhongnf.github.io/tags/sql/</loc>
     <lastmod>2021-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/%E9%9D%A2%E8%AF%95/</loc>
+    <loc>http://https//zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/</loc>
     <lastmod>2021-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/tags/JVM/</loc>
+    <loc>http://https//zhongnf.github.io/tags/JVM/</loc>
     <lastmod>2021-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -136,21 +136,21 @@
 
   
   <url>
-    <loc>http://example.com/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
+    <loc>http://https//zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc>
     <lastmod>2021-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>http://https//zhongnf.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2021-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://example.com/categories/JVM/</loc>
+    <loc>http://https//zhongnf.github.io/categories/JVM/</loc>
     <lastmod>2021-12-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
