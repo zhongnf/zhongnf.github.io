@@ -213,6 +213,35 @@
     
     
     <entry>
+      <title>Java并发：悲观锁机制</title>
+      <link href="/2021/12/09/Java%E5%B9%B6%E5%8F%91%E4%B9%8B%E6%82%B2%E8%A7%82%E9%94%81/"/>
+      <url>/2021/12/09/Java%E5%B9%B6%E5%8F%91%E4%B9%8B%E6%82%B2%E8%A7%82%E9%94%81/</url>
+      
+        <content type="html"><![CDATA[<h2 id="什么是锁"><a href="#什么是锁" class="headerlink" title="什么是锁"></a>什么是锁</h2><h4 id="锁的概念"><a href="#锁的概念" class="headerlink" title="锁的概念"></a>锁的概念</h4><p>在并发环境下，会出现多个线程对同一个资源进行争抢的情况。假设A资源正在修改，此时B线程又对资源进行修改，这就可能导致数据不一致问题。为了解决这一问题，就引入了锁机制，通过一把抽象的“锁”对资源进行锁定，当线程持有“锁”的时候，其他线程必须等待“锁”。</p><p>在Java中，主要采用两种实现方式，1.基于Object的悲观锁。2.基于CAS的乐观锁。</p><h2 id="对象、对象头结构"><a href="#对象、对象头结构" class="headerlink" title="对象、对象头结构"></a>对象、对象头结构</h2><p>锁是存储在对象头中的，那么对象和对象头的结果是什么呢？</p><p>Java对象发三部分：</p><ul><li>对象头</li><li>示例数据</li><li>对齐填充字节</li></ul><blockquote><p>其中对齐填充字节是为了满足“Java对象大小是8字节的倍数”而设计的。实例数据是你在初始化对象时设定的属性和状态等内容</p></blockquote><p>而对象头包含了两部分：</p><ul><li>Mark Word</li><li>Class Pointer</li></ul><p>Class Pointer是一个指针，指向当前对象类型所在方法区中的Class信息，Mark Word存储了很多当前对象的运行时状态信息，比如HashCode、锁状态标志、指向锁记录的指针、偏向线程ID、锁标记位等。</p><p><img src="https://raw.githubusercontent.com/zhongnf/MyTypora/main/img/image-20211212204047537.png" alt="image-20211212204047537"></p><p>从图中最后两位代表锁标记位，分别对应对象锁的四种：无锁、偏向锁、轻量级锁、重量级锁。但是锁能升级，而不能将级。</p><h2 id="Synchronized"><a href="#Synchronized" class="headerlink" title="Synchronized"></a>Synchronized</h2><p>Synchronized关键字可用用来同步线程，Synchronized被编译后会生成moniterenter和moniterexit两个字节码，依赖着两个字节码指令进行线程同步。</p><h2 id="对象锁的四种状态"><a href="#对象锁的四种状态" class="headerlink" title="对象锁的四种状态"></a>对象锁的四种状态</h2><ol><li>无锁</li></ol><p>无锁顾名思义就是没有操作系统级别的资源(Mutex Lock)的锁定。在此基础上。我知道有两个语义上的“解锁”其实有两种语义。</p><p>第一种比较简单，有些资源不会出现在多线程环境中，甚至出现在多线程环境中的线程竞争也不会出现，所以真的不需要做任何同步来保护这个资源，让他直接对每个线程随机调用。这里，指语义上的。</p><p>另一种情况是，资源会竞争，但不使用操作系统同步原语来锁定共享资源，而是由一些其他机制来控制同步。如CAS，通过锁等功能级别，可以进行‘解锁’编程。顺便说一下，它还取决于操作系统对互斥锁性能差的原因进行了分析，所以在大多数情况下，没有锁更高效，但这并不意味着没有锁就可以完全取代锁。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 多线程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 多线程 </tag>
+            
+            <tag> Java并发系列 </tag>
+            
+            <tag> 悲观锁 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JVM宋红康</title>
       <link href="/2021/12/09/JVM/"/>
       <url>/2021/12/09/JVM/</url>
