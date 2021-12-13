@@ -175,9 +175,9 @@
     
     <category term="AQS" scheme="https://zhongnf.github.io/tags/AQS/"/>
     
-    <category term="源码" scheme="https://zhongnf.github.io/tags/%E6%BA%90%E7%A0%81/"/>
-    
     <category term="CountDownLatch" scheme="https://zhongnf.github.io/tags/CountDownLatch/"/>
+    
+    <category term="源码" scheme="https://zhongnf.github.io/tags/%E6%BA%90%E7%A0%81/"/>
     
   </entry>
   
@@ -277,6 +277,32 @@
   </entry>
   
   <entry>
+    <title>JVM面试题</title>
+    <link href="https://zhongnf.github.io/2021/12/09/JVM%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/"/>
+    <id>https://zhongnf.github.io/2021/12/09/JVM%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/</id>
+    <published>2021-12-09T12:08:30.000Z</published>
+    <updated>2021-12-13T11:56:19.234Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="JVM"><a href="#JVM" class="headerlink" title="JVM"></a>JVM</h1><h3 id="一、JVM内存区域"><a href="#一、JVM内存区域" class="headerlink" title="一、JVM内存区域"></a>一、JVM内存区域</h3><h3 id="二、JVM运行时内存"><a href="#二、JVM运行时内存" class="headerlink" title="二、JVM运行时内存"></a>二、JVM运行时内存</h3><h3 id="三、垃圾回收与算法"><a href="#三、垃圾回收与算法" class="headerlink" title="三、垃圾回收与算法"></a>三、垃圾回收与算法</h3><h4 id="1、如何判断对象为垃圾对象"><a href="#1、如何判断对象为垃圾对象" class="headerlink" title="1、如何判断对象为垃圾对象"></a>1、如何判断对象为垃圾对象</h4><h5 id="1-1、引用计数算法"><a href="#1-1、引用计数算法" class="headerlink" title="1.1、引用计数算法"></a>1.1、引用计数算法</h5><p>​    Java 中，引用和对象是有关联的。如果要操作对象则必须用引用进行。引用计数算法就是在对象中添加了一个引用计数器，当有地方引用这个对象时，引用计数器的值就加1，当引用失效的时候，引用计数器的值就减1。当引用计数器的值为0时，jvm就开始回收这个对象。</p><p>　　简单的来说，在JVM中的栈中，如果栈帧中指向了一个对象，那么堆中的引用计数器的值就会加1，当栈帧这个指向null时，对象的引用计数器就减1。</p><p>​    这种方法虽然很简单、高效，但是JVM一般不会选择这个方法，因为这个方法会出现一个问题：当对象之间相互指向时，两个对象的引用计数器的值都会加1，而由于两个对象时相互指向，所以引用不会失效，这样JVM就无法回收。</p><h5 id="1-2、可达性分析算法"><a href="#1-2、可达性分析算法" class="headerlink" title="1.2、可达性分析算法"></a>1.2、可达性分析算法</h5><p>   为了解决引用计数法的循环引用问题，JVM采用了另一种方法：定义一个名为”GC Roots”的对象作为起始点，这个”GC Roots”可以有多个，从这些节点开始向下搜索，搜索所走过的路径称为引用链(Reference Chain)。<strong>如果在“GC roots”和一个对象之间没有可达路径，则称该对象是不可达的</strong></p><p>​    <strong>不可达对象不等价于可回收对象，不可达对象变为可回收对象至少要经过两次标记 过程。两次标记后仍然是可回收对象，则将面临回收。</strong></p><h4 id="2、标记清除算法（Mark-Swap）"><a href="#2、标记清除算法（Mark-Swap）" class="headerlink" title="2、标记清除算法（Mark-Swap）"></a>2、标记清除算法（Mark-Swap）</h4><p>最基础的垃圾回收算法，分为两个阶段，标注和清除。标记阶段标记出所有需要回收的对象，清除阶段回收被标记的对象所占用的空间</p><p><img src="https://raw.githubusercontent.com/zhongnf/MyTypora/main/img/image-20211112172315287.png" alt="image-20211112172315287"></p><p>该算法最大的问题是<strong>内存碎片化严重</strong>，后续可能发生大对象不能找到可 利用空间的问题。</p><h4 id="3、复制算法"><a href="#3、复制算法" class="headerlink" title="3、复制算法"></a>3、复制算法</h4><p>为了解决 Mark-Sweep 算法内存碎片化的缺陷而被提出的算法。按内存容量将内存划分为等大小的两块。每次只使用其中一块，当这一块内存满后将尚存活的对象复制到另一块上去，把已使用 的内存清掉，如图</p><p><img src="https://raw.githubusercontent.com/zhongnf/MyTypora/main/img/image-20211112172524816.png" alt="image-20211112172524816"></p><p>这种算法虽然实现简单，内存效率高，不易产生碎片，但是最大的问题是可用内存被压缩到了原 本的一半。且存活对象增多的话，Copying 算法的效率会大大降低。</p><h4 id="4-标记复制算法"><a href="#4-标记复制算法" class="headerlink" title="4.标记复制算法"></a>4.标记复制算法</h4><p>结合了以上两个算法，为了避免缺陷而提出。标记阶段和 Mark-Sweep 算法相同，<strong>标记后不是清理对象，而是将存活对象移向内存的一端。</strong>然后清除端边界外的对象。如图：</p><h4 id="5、分代收集算法（目前大部分）"><a href="#5、分代收集算法（目前大部分）" class="headerlink" title="5、分代收集算法（目前大部分）"></a>5、分代收集算法（目前大部分）</h4><h5 id="5-1新生代与复制算法"><a href="#5-1新生代与复制算法" class="headerlink" title="5.1新生代与复制算法"></a>5.1新生代与复制算法</h5><p>​    前大部分 JVM 的 GC 对于新生代都采取 Copying 算法，因为新生代中每次垃圾回收都要 回收大部分对象，即要复制的操作比较少，但通常并不是按照 1：1 来划分新生代。一般将新生代 划分为一块较大的 Eden 空间和两个较小的 Survivor 空间(From Space, To Space)，每次使用 Eden 空间和其中的一块 Survivor 空间，当进行回收时，将该两块空间中还存活的对象复制到另 一块 Survivor 空间中。</p><p><img src="C:\Users\znf\AppData\Roaming\Typora\typora-user-images\image-20211113150955686.png" alt="image-20211113150955686"></p><h5 id="5-2老年代与标记复制算法"><a href="#5-2老年代与标记复制算法" class="headerlink" title="5.2老年代与标记复制算法"></a>5.2老年代与标记复制算法</h5><ol><li>JAVA 虚拟机提到过的处于方法区的<strong>永生代(Permanet Generation)，它用来存储 class 类， 常量，方法描述等</strong>。对永生代的回收主要包括废弃常量和无用的类。</li><li>对象的内存分配主要在新生代的 Eden Space 和 Survivor Space 的 From Space(Survivor 目 前存放对象的那一块)，少数情况会直接分配到老生代。</li><li>当新生代的 Eden Space 和 From Space 空间不足时就会发生一次 GC，进行 GC 后，Eden  Space 和 From Space 区的存活对象会被挪到 To Space，然后将 Eden Space 和 From  Space 进行清理。、</li><li>当新生代的 Eden Space 和 From Space 空间不足时就会发生一次 GC，进行 GC 后，Eden  Space 和 From Space 区的存活对象会被挪到 To Space，然后将 Eden Space 和 From  Space 进行清理。</li><li>在进行 GC 后，使用的便是 Eden Space 和 To Space 了，如此反复循环。</li><li>当对象在 Survivor 区躲过一次 GC 后，其年龄就会+1。<strong>默认情况下年龄到达 15 的对象会被 移到老生代中。</strong></li></ol><h3 id="四、Java中四种引用类型"><a href="#四、Java中四种引用类型" class="headerlink" title="四、Java中四种引用类型"></a>四、Java中四种引用类型</h3><h4 id="1-强应用（最常见）"><a href="#1-强应用（最常见）" class="headerlink" title="1.强应用（最常见）"></a>1.强应用（最常见）</h4><p><strong>把一个对象赋给一个引用变量</strong>，这个引用变量就是一个强引用，当一个对象被引用时，它处于可达状态，是不可能    被垃圾回收机制回收的，即使该对象以后永远都不会被用到 JVM 也不会回收。因此强引用是造成 Java 内存泄漏的主要原因之一。OutOfMemory</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">String s = <span class="keyword">new</span> String(<span class="string">&quot;hello world&quot;</span>);</span><br><span class="line">String str =<span class="string">&quot;hello&quot;</span>;</span><br></pre></td></tr></table></figure><h4 id="2-软引用"><a href="#2-软引用" class="headerlink" title="2.软引用"></a>2.软引用</h4><p>​    软应用需要用SoftReference类来实现，当系统内存足够时它 不会被回收，当系统内存空间不足时它会被回收。软引用通常用在对内存敏感的程序中。</p><p>​    SoftReference的特点是它的一个实例保存对一个Java对象的软引用， 该软引用的存在不妨碍垃圾收集线程对该Java对象的回收。</p><p>​    也就是说，一旦SoftReference保存了对一个Java对象的软引用后，在垃圾线程对 这个Java对象回收前，SoftReference类所提供的get()方法返回Java对象的强引用。</p><p>​    另外，一旦垃圾线程回收该Java对象之 后，get()方法将返回null。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">MyObject aRef = <span class="keyword">new</span> MyObject();</span><br><span class="line">SoftReference aSoftRef = <span class="keyword">new</span> SoftReference(aRef);</span><br></pre></td></tr></table></figure><p>​    此时，对于这个MyObject对象，有两个引用路径，一个是来自SoftReference对象的软引用，一个来自变量aRef的强引用，所以这个MyObject对象是强可及对象。</p><h4 id="3-弱引用"><a href="#3-弱引用" class="headerlink" title="3.弱引用"></a>3.弱引用</h4><p>​    弱引用需要用 WeakReference 类来实现，它比软引用的生存期更短，对于只有弱引用的对象 来说，只要垃圾回收机制一运行，不管 JVM 的内存空间是否足够，总会回收该对象占用的内存。</p><h4 id="4-虚引用"><a href="#4-虚引用" class="headerlink" title="4.虚引用"></a>4.虚引用</h4><p>​    虚引用需要 PhantomReference 类来实现，它不能单独使用，必须和引用队列联合使用。虚 引用的主要作用是跟踪对象被垃圾回收的状态。</p><p>​    虚引用必须和引用队列关联使用，当垃圾回收器准备回收一个对象时，如果发现它还有虚引用，就会把这个虚引用加入到与之 关联的引用队列中。程序可以通过判断引用队列中是否已经加入了虚引用，来了解被引用的对象是否将要被垃圾回收。如果程序发现某个虚引用已经被加入到引用队列，那么就可以在所引用的对象的内存被回收之前采取必要的行动。</p><h3 id="五、GC分代收集算法-vs-分区收集算法"><a href="#五、GC分代收集算法-vs-分区收集算法" class="headerlink" title="五、GC分代收集算法 vs 分区收集算法"></a>五、GC分代收集算法 vs 分区收集算法</h3><h4 id="1-分区收集算法"><a href="#1-分区收集算法" class="headerlink" title="1.分区收集算法"></a>1.分区收集算法</h4><p>​    <strong>分区算法则将整个堆空间划分为连续的不同小区间, 每个小区间独立使用</strong>, 独立回收. 这样做的<strong>好处是可以控制一次回收多少个小区间</strong> , 根据目标停顿时间, 每次合理地回收若干个小区间(而不是 整个堆), 从而减少一次 GC 所产生的停顿。</p><h3 id="六、GC垃圾收集器"><a href="#六、GC垃圾收集器" class="headerlink" title="六、GC垃圾收集器"></a>六、GC垃圾收集器</h3><h3 id="七、Java-IO-NIO"><a href="#七、Java-IO-NIO" class="headerlink" title="七、Java IO/NIO"></a>七、Java IO/NIO</h3><h4 id="1-阻塞IO模型"><a href="#1-阻塞IO模型" class="headerlink" title="1.阻塞IO模型"></a>1.阻塞IO模型</h4><p>​    最传统的一种 IO 模型，即在读写数据过程中会发生阻塞现象。当用户线程发出 IO 请求之后，内 核会去查看数据是否就绪，如果没有就绪就会等待数据就绪，而用户线程就会处于阻塞状态，用 户线程交出 CPU。当数据就绪之后，内核会将数据拷贝到用户线程，并返回结果给用户线程，用户线程才解除 block 状态。典型的阻塞 IO 模型的例子为：**data = socket.read();**如果数据没有就 绪，就会一直阻塞在 read 方法。</p><h4 id="2-非阻塞IO模型"><a href="#2-非阻塞IO模型" class="headerlink" title="2.非阻塞IO模型"></a>2.非阻塞IO模型</h4><p>当用户线程发起一个 read 操作后，并不需要等待，而是马上就得到了一个结果。如果结果是一个 error 时，它就知道数据还没有准备好，于是它可以再次发送 read 操作。一旦内核中的数据准备好了，并且又再次收到了用户线程的请求，那么它马上就将数据拷贝到了用户线程，然后返回。 所以事实上，<strong>在非阻塞 IO 模型中，用户线程需要不断地询问内核数据是否就绪，也就说非阻塞 IO 不会交出 CPU，而会一直占用 CPU。</strong>典型的非阻塞 IO 模型一般如下：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span>(<span class="keyword">true</span>) &#123;</span><br><span class="line">    data = socket.read();</span><br><span class="line">    <span class="keyword">if</span>(data != error) &#123;</span><br><span class="line">        <span class="comment">// 处理数据</span></span><br><span class="line">        <span class="keyword">break</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>但是对于非阻塞 IO 就有一个非常严重的问题，<strong>在 while 循环中需要不断地去询问内核数据是否就 绪，这样会导致 CPU 占用率非常高，</strong>因此一般情况下很少使用 while 循环这种方式来读取数据。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;JVM&quot;&gt;&lt;a href=&quot;#JVM&quot; class=&quot;headerlink&quot; title=&quot;JVM&quot;&gt;&lt;/a&gt;JVM&lt;/h1&gt;&lt;h3 id=&quot;一、JVM内存区域&quot;&gt;&lt;a href=&quot;#一、JVM内存区域&quot; class=&quot;headerlink&quot; title=&quot;一、J</summary>
+      
+    
+    
+    
+    <category term="JVM" scheme="https://zhongnf.github.io/categories/JVM/"/>
+    
+    
+    <category term="JVM" scheme="https://zhongnf.github.io/tags/JVM/"/>
+    
+    <category term="面试" scheme="https://zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>JVM宋红康</title>
     <link href="https://zhongnf.github.io/2021/12/09/JVM/"/>
     <id>https://zhongnf.github.io/2021/12/09/JVM/</id>
@@ -296,9 +322,9 @@
     <category term="JVM" scheme="https://zhongnf.github.io/categories/JVM/"/>
     
     
-    <category term="面试" scheme="https://zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
-    
     <category term="JVM" scheme="https://zhongnf.github.io/tags/JVM/"/>
+    
+    <category term="面试" scheme="https://zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
   </entry>
   
