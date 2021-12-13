@@ -15,6 +15,8 @@
           
           <category> 多线程 </category>
           
+          <category> 面试题 </category>
+          
       </categories>
       
       
@@ -96,6 +98,8 @@
           
           <category> 多线程 </category>
           
+          <category> Java并发系列 </category>
+          
       </categories>
       
       
@@ -107,9 +111,9 @@
             
             <tag> 源码 </tag>
             
-            <tag> Java并发系列 </tag>
-            
             <tag> ConcurrentHashMap </tag>
+            
+            <tag> Java并发系列 </tag>
             
         </tags>
       
@@ -129,6 +133,8 @@
           
           <category> 多线程 </category>
           
+          <category> Java并发系列 </category>
+          
       </categories>
       
       
@@ -136,13 +142,13 @@
             
             <tag> AQS </tag>
             
-            <tag> CountDownLatch </tag>
-            
             <tag> 多线程 </tag>
             
             <tag> 源码 </tag>
             
             <tag> Java并发系列 </tag>
+            
+            <tag> CountDownLatch </tag>
             
         </tags>
       
@@ -161,6 +167,8 @@
       <categories>
           
           <category> 多线程 </category>
+          
+          <category> Java并发系列 </category>
           
       </categories>
       
@@ -193,6 +201,8 @@
           
           <category> 多线程 </category>
           
+          <category> Java并发系列 </category>
+          
       </categories>
       
       
@@ -223,6 +233,8 @@
       <categories>
           
           <category> 多线程 </category>
+          
+          <category> Java并发系列 </category>
           
       </categories>
       
