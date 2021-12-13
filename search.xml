@@ -20,9 +20,9 @@
       
         <tags>
             
-            <tag> 面试 </tag>
-            
             <tag> 多线程 </tag>
+            
+            <tag> 面试 </tag>
             
         </tags>
       
@@ -101,15 +101,15 @@
       
         <tags>
             
-            <tag> 多线程 </tag>
-            
             <tag> AQS </tag>
+            
+            <tag> 多线程 </tag>
             
             <tag> 源码 </tag>
             
-            <tag> ConcurrentHashMap </tag>
-            
             <tag> Java并发系列 </tag>
+            
+            <tag> ConcurrentHashMap </tag>
             
         </tags>
       
@@ -134,15 +134,15 @@
       
         <tags>
             
-            <tag> 多线程 </tag>
-            
             <tag> AQS </tag>
+            
+            <tag> CountDownLatch </tag>
+            
+            <tag> 多线程 </tag>
             
             <tag> 源码 </tag>
             
             <tag> Java并发系列 </tag>
-            
-            <tag> CountDownLatch </tag>
             
         </tags>
       
@@ -167,9 +167,9 @@
       
         <tags>
             
-            <tag> 多线程 </tag>
-            
             <tag> AQS </tag>
+            
+            <tag> 多线程 </tag>
             
             <tag> 源码 </tag>
             
@@ -198,9 +198,9 @@
       
         <tags>
             
-            <tag> 多线程 </tag>
-            
             <tag> AQS </tag>
+            
+            <tag> 多线程 </tag>
             
             <tag> 源码 </tag>
             
