@@ -3,11 +3,11 @@
   <title>鸿渐博客</title>
   
   
-  <link href="https://zhongnf.github.io/atom.xml" rel="self"/>
+  <link href="https://zhongnf.gitee.io/atom.xml" rel="self"/>
   
-  <link href="https://zhongnf.github.io/"/>
+  <link href="https://zhongnf.gitee.io/"/>
   <updated>2021-12-15T02:25:37.385Z</updated>
-  <id>https://zhongnf.github.io/</id>
+  <id>https://zhongnf.gitee.io/</id>
   
   <author>
     <name>Zhong hongjian</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>SpringMVC面试题</title>
-    <link href="https://zhongnf.github.io/2021/12/14/SpringMVC%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    <id>https://zhongnf.github.io/2021/12/14/SpringMVC%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/14/SpringMVC%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <id>https://zhongnf.gitee.io/2021/12/14/SpringMVC%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
     <published>2021-12-14T12:37:16.000Z</published>
     <updated>2021-12-15T02:25:37.385Z</updated>
     
@@ -34,19 +34,19 @@
     
     
     
-    <category term="springMVC" scheme="https://zhongnf.github.io/categories/springMVC/"/>
+    <category term="springMVC" scheme="https://zhongnf.gitee.io/categories/springMVC/"/>
     
     
-    <category term="面试" scheme="https://zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    <category term="面试" scheme="https://zhongnf.gitee.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
-    <category term="springMVC" scheme="https://zhongnf.github.io/tags/springMVC/"/>
+    <category term="springMVC" scheme="https://zhongnf.gitee.io/tags/springMVC/"/>
     
   </entry>
   
   <entry>
     <title>Spring面试题</title>
-    <link href="https://zhongnf.github.io/2021/12/13/Spring%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    <id>https://zhongnf.github.io/2021/12/13/Spring%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/13/Spring%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <id>https://zhongnf.gitee.io/2021/12/13/Spring%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
     <published>2021-12-13T13:23:14.000Z</published>
     <updated>2021-12-14T13:15:39.671Z</updated>
     
@@ -60,19 +60,19 @@
     
     
     
-    <category term="spring" scheme="https://zhongnf.github.io/categories/spring/"/>
+    <category term="spring" scheme="https://zhongnf.gitee.io/categories/spring/"/>
     
     
-    <category term="面试" scheme="https://zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    <category term="面试" scheme="https://zhongnf.gitee.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
-    <category term="spring" scheme="https://zhongnf.github.io/tags/spring/"/>
+    <category term="spring" scheme="https://zhongnf.gitee.io/tags/spring/"/>
     
   </entry>
   
   <entry>
     <title>Mybatis面试题</title>
-    <link href="https://zhongnf.github.io/2021/12/13/Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    <id>https://zhongnf.github.io/2021/12/13/Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/13/Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <id>https://zhongnf.gitee.io/2021/12/13/Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
     <published>2021-12-13T12:18:18.000Z</published>
     <updated>2021-12-15T03:16:03.610Z</updated>
     
@@ -86,44 +86,44 @@
     
     
     
-    <category term="数据库" scheme="https://zhongnf.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="数据库" scheme="https://zhongnf.gitee.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
-    <category term="mybatis" scheme="https://zhongnf.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/mybatis/"/>
+    <category term="mybatis" scheme="https://zhongnf.gitee.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/mybatis/"/>
     
     
-    <category term="面试" scheme="https://zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    <category term="面试" scheme="https://zhongnf.gitee.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
-    <category term="mybatis" scheme="https://zhongnf.github.io/tags/mybatis/"/>
+    <category term="mybatis" scheme="https://zhongnf.gitee.io/tags/mybatis/"/>
     
   </entry>
   
   <entry>
     <title>Java并发07之JUC.ThreadPoolExecutor</title>
-    <link href="https://zhongnf.github.io/2021/12/13/Java%E5%B9%B6%E5%8F%9107%E4%B9%8BJUC-ThreadPoolExecutor/"/>
-    <id>https://zhongnf.github.io/2021/12/13/Java%E5%B9%B6%E5%8F%9107%E4%B9%8BJUC-ThreadPoolExecutor/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/13/Java%E5%B9%B6%E5%8F%9107%E4%B9%8BJUC-ThreadPoolExecutor/"/>
+    <id>https://zhongnf.gitee.io/2021/12/13/Java%E5%B9%B6%E5%8F%9107%E4%B9%8BJUC-ThreadPoolExecutor/</id>
     <published>2021-12-13T08:53:31.000Z</published>
     <updated>2021-12-13T09:17:28.595Z</updated>
     
     
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="Java并发系列" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
+    <category term="Java并发系列" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="Java并发系列" scheme="https://zhongnf.github.io/tags/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
+    <category term="Java并发系列" scheme="https://zhongnf.gitee.io/tags/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
     
-    <category term="ThreadPoolExecutor" scheme="https://zhongnf.github.io/tags/ThreadPoolExecutor/"/>
+    <category term="ThreadPoolExecutor" scheme="https://zhongnf.gitee.io/tags/ThreadPoolExecutor/"/>
     
   </entry>
   
   <entry>
     <title>JAVA多线程基础面试题</title>
-    <link href="https://zhongnf.github.io/2021/12/11/JAVA%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    <id>https://zhongnf.github.io/2021/12/11/JAVA%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/11/JAVA%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <id>https://zhongnf.gitee.io/2021/12/11/JAVA%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
     <published>2021-12-11T09:38:06.000Z</published>
     <updated>2021-12-13T11:47:55.477Z</updated>
     
@@ -137,21 +137,21 @@
     
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="面试题" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <category term="面试题" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="面试" scheme="https://zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    <category term="面试" scheme="https://zhongnf.gitee.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>RabbitMQ面试题</title>
-    <link href="https://zhongnf.github.io/2021/12/11/RabbitMQ%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    <id>https://zhongnf.github.io/2021/12/11/RabbitMQ%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/11/RabbitMQ%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <id>https://zhongnf.gitee.io/2021/12/11/RabbitMQ%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
     <published>2021-12-11T09:23:13.000Z</published>
     <updated>2021-12-11T09:34:13.211Z</updated>
     
@@ -165,19 +165,19 @@
     
     
     
-    <category term="rabbitmq" scheme="https://zhongnf.github.io/categories/rabbitmq/"/>
+    <category term="rabbitmq" scheme="https://zhongnf.gitee.io/categories/rabbitmq/"/>
     
     
-    <category term="面试" scheme="https://zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    <category term="面试" scheme="https://zhongnf.gitee.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
-    <category term="rabbitmq" scheme="https://zhongnf.github.io/tags/rabbitmq/"/>
+    <category term="rabbitmq" scheme="https://zhongnf.gitee.io/tags/rabbitmq/"/>
     
   </entry>
   
   <entry>
     <title>Redis面试题</title>
-    <link href="https://zhongnf.github.io/2021/12/11/Redis%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    <id>https://zhongnf.github.io/2021/12/11/Redis%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/11/Redis%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <id>https://zhongnf.gitee.io/2021/12/11/Redis%E9%9D%A2%E8%AF%95%E9%A2%98/</id>
     <published>2021-12-11T09:02:24.000Z</published>
     <updated>2021-12-11T09:19:54.120Z</updated>
     
@@ -192,46 +192,46 @@
     
     
     
-    <category term="redis" scheme="https://zhongnf.github.io/categories/redis/"/>
+    <category term="redis" scheme="https://zhongnf.gitee.io/categories/redis/"/>
     
     
-    <category term="面试" scheme="https://zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    <category term="面试" scheme="https://zhongnf.gitee.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
-    <category term="redis" scheme="https://zhongnf.github.io/tags/redis/"/>
+    <category term="redis" scheme="https://zhongnf.gitee.io/tags/redis/"/>
     
   </entry>
   
   <entry>
     <title>Java并发06之JUC.ConcurrentHashMap源码解读</title>
-    <link href="https://zhongnf.github.io/2021/12/11/Java%E5%B9%B6%E5%8F%9106%E4%B9%8BJUC.ConcurrentHashMap%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/"/>
-    <id>https://zhongnf.github.io/2021/12/11/Java%E5%B9%B6%E5%8F%9106%E4%B9%8BJUC.ConcurrentHashMap%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/11/Java%E5%B9%B6%E5%8F%9106%E4%B9%8BJUC.ConcurrentHashMap%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/"/>
+    <id>https://zhongnf.gitee.io/2021/12/11/Java%E5%B9%B6%E5%8F%9106%E4%B9%8BJUC.ConcurrentHashMap%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/</id>
     <published>2021-12-11T07:36:30.000Z</published>
     <updated>2021-12-13T11:19:52.790Z</updated>
     
     
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="Java并发系列" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
+    <category term="Java并发系列" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="Java并发系列" scheme="https://zhongnf.github.io/tags/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
+    <category term="Java并发系列" scheme="https://zhongnf.gitee.io/tags/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
     
-    <category term="AQS" scheme="https://zhongnf.github.io/tags/AQS/"/>
+    <category term="AQS" scheme="https://zhongnf.gitee.io/tags/AQS/"/>
     
-    <category term="源码" scheme="https://zhongnf.github.io/tags/%E6%BA%90%E7%A0%81/"/>
+    <category term="源码" scheme="https://zhongnf.gitee.io/tags/%E6%BA%90%E7%A0%81/"/>
     
-    <category term="ConcurrentHashMap" scheme="https://zhongnf.github.io/tags/ConcurrentHashMap/"/>
+    <category term="ConcurrentHashMap" scheme="https://zhongnf.gitee.io/tags/ConcurrentHashMap/"/>
     
   </entry>
   
   <entry>
     <title>Java并发05之JUC.CountDownLatch源码解读</title>
-    <link href="https://zhongnf.github.io/2021/12/11/Java%E5%B9%B6%E5%8F%9105%E4%B9%8BJUC.CountDownLatch%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/"/>
-    <id>https://zhongnf.github.io/2021/12/11/Java%E5%B9%B6%E5%8F%9105%E4%B9%8BJUC.CountDownLatch%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/11/Java%E5%B9%B6%E5%8F%9105%E4%B9%8BJUC.CountDownLatch%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/"/>
+    <id>https://zhongnf.gitee.io/2021/12/11/Java%E5%B9%B6%E5%8F%9105%E4%B9%8BJUC.CountDownLatch%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/</id>
     <published>2021-12-11T07:32:30.000Z</published>
     <updated>2021-12-13T11:49:01.276Z</updated>
     
@@ -245,27 +245,27 @@
     
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="Java并发系列" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
+    <category term="Java并发系列" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="Java并发系列" scheme="https://zhongnf.github.io/tags/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
+    <category term="Java并发系列" scheme="https://zhongnf.gitee.io/tags/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
     
-    <category term="AQS" scheme="https://zhongnf.github.io/tags/AQS/"/>
+    <category term="AQS" scheme="https://zhongnf.gitee.io/tags/AQS/"/>
     
-    <category term="源码" scheme="https://zhongnf.github.io/tags/%E6%BA%90%E7%A0%81/"/>
+    <category term="源码" scheme="https://zhongnf.gitee.io/tags/%E6%BA%90%E7%A0%81/"/>
     
-    <category term="CountDownLatch" scheme="https://zhongnf.github.io/tags/CountDownLatch/"/>
+    <category term="CountDownLatch" scheme="https://zhongnf.gitee.io/tags/CountDownLatch/"/>
     
   </entry>
   
   <entry>
     <title>Java并发04之JUC.ReentrantLock源码解读</title>
-    <link href="https://zhongnf.github.io/2021/12/10/Java%E5%B9%B6%E5%8F%9104%E4%B9%8BJUC.ReentrantLock%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/"/>
-    <id>https://zhongnf.github.io/2021/12/10/Java%E5%B9%B6%E5%8F%9104%E4%B9%8BJUC.ReentrantLock%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/10/Java%E5%B9%B6%E5%8F%9104%E4%B9%8BJUC.ReentrantLock%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/"/>
+    <id>https://zhongnf.gitee.io/2021/12/10/Java%E5%B9%B6%E5%8F%9104%E4%B9%8BJUC.ReentrantLock%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/</id>
     <published>2021-12-10T12:29:30.000Z</published>
     <updated>2021-12-13T11:19:12.789Z</updated>
     
@@ -279,25 +279,25 @@
     
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="Java并发系列" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
+    <category term="Java并发系列" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="Java并发系列" scheme="https://zhongnf.github.io/tags/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
+    <category term="Java并发系列" scheme="https://zhongnf.gitee.io/tags/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
     
-    <category term="AQS" scheme="https://zhongnf.github.io/tags/AQS/"/>
+    <category term="AQS" scheme="https://zhongnf.gitee.io/tags/AQS/"/>
     
-    <category term="源码" scheme="https://zhongnf.github.io/tags/%E6%BA%90%E7%A0%81/"/>
+    <category term="源码" scheme="https://zhongnf.gitee.io/tags/%E6%BA%90%E7%A0%81/"/>
     
   </entry>
   
   <entry>
     <title>Java并发03之AbstractQueuedSynchronizer源码解读</title>
-    <link href="https://zhongnf.github.io/2021/12/10/Java%E5%B9%B6%E5%8F%9103%E4%B9%8BAQS%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/"/>
-    <id>https://zhongnf.github.io/2021/12/10/Java%E5%B9%B6%E5%8F%9103%E4%B9%8BAQS%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/10/Java%E5%B9%B6%E5%8F%9103%E4%B9%8BAQS%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/"/>
+    <id>https://zhongnf.gitee.io/2021/12/10/Java%E5%B9%B6%E5%8F%9103%E4%B9%8BAQS%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB/</id>
     <published>2021-12-10T07:33:30.000Z</published>
     <updated>2021-12-13T11:50:07.440Z</updated>
     
@@ -312,25 +312,25 @@
     
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="Java并发系列" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
+    <category term="Java并发系列" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="Java并发系列" scheme="https://zhongnf.github.io/tags/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
+    <category term="Java并发系列" scheme="https://zhongnf.gitee.io/tags/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
     
-    <category term="AQS" scheme="https://zhongnf.github.io/tags/AQS/"/>
+    <category term="AQS" scheme="https://zhongnf.gitee.io/tags/AQS/"/>
     
-    <category term="源码" scheme="https://zhongnf.github.io/tags/%E6%BA%90%E7%A0%81/"/>
+    <category term="源码" scheme="https://zhongnf.gitee.io/tags/%E6%BA%90%E7%A0%81/"/>
     
   </entry>
   
   <entry>
     <title>Java并发系列01之悲观锁机制</title>
-    <link href="https://zhongnf.github.io/2021/12/09/Java%E5%B9%B6%E5%8F%9101%E4%B9%8B%E6%82%B2%E8%A7%82%E9%94%81/"/>
-    <id>https://zhongnf.github.io/2021/12/09/Java%E5%B9%B6%E5%8F%9101%E4%B9%8B%E6%82%B2%E8%A7%82%E9%94%81/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/09/Java%E5%B9%B6%E5%8F%9101%E4%B9%8B%E6%82%B2%E8%A7%82%E9%94%81/"/>
+    <id>https://zhongnf.gitee.io/2021/12/09/Java%E5%B9%B6%E5%8F%9101%E4%B9%8B%E6%82%B2%E8%A7%82%E9%94%81/</id>
     <published>2021-12-09T12:57:30.000Z</published>
     <updated>2021-12-13T11:49:45.677Z</updated>
     
@@ -344,23 +344,23 @@
     
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="Java并发系列" scheme="https://zhongnf.github.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
+    <category term="Java并发系列" scheme="https://zhongnf.gitee.io/categories/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
     
     
-    <category term="多线程" scheme="https://zhongnf.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <category term="多线程" scheme="https://zhongnf.gitee.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
     
-    <category term="Java并发系列" scheme="https://zhongnf.github.io/tags/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
+    <category term="Java并发系列" scheme="https://zhongnf.gitee.io/tags/Java%E5%B9%B6%E5%8F%91%E7%B3%BB%E5%88%97/"/>
     
-    <category term="悲观锁" scheme="https://zhongnf.github.io/tags/%E6%82%B2%E8%A7%82%E9%94%81/"/>
+    <category term="悲观锁" scheme="https://zhongnf.gitee.io/tags/%E6%82%B2%E8%A7%82%E9%94%81/"/>
     
   </entry>
   
   <entry>
     <title>JVM面试题</title>
-    <link href="https://zhongnf.github.io/2021/12/09/JVM%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/"/>
-    <id>https://zhongnf.github.io/2021/12/09/JVM%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/09/JVM%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/"/>
+    <id>https://zhongnf.gitee.io/2021/12/09/JVM%E9%9D%A2%E8%AF%95%E6%80%BB%E7%BB%93/</id>
     <published>2021-12-09T12:08:30.000Z</published>
     <updated>2021-12-13T11:56:19.234Z</updated>
     
@@ -374,19 +374,19 @@
     
     
     
-    <category term="JVM" scheme="https://zhongnf.github.io/categories/JVM/"/>
+    <category term="JVM" scheme="https://zhongnf.gitee.io/categories/JVM/"/>
     
     
-    <category term="JVM" scheme="https://zhongnf.github.io/tags/JVM/"/>
+    <category term="JVM" scheme="https://zhongnf.gitee.io/tags/JVM/"/>
     
-    <category term="面试" scheme="https://zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    <category term="面试" scheme="https://zhongnf.gitee.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>JVM宋红康</title>
-    <link href="https://zhongnf.github.io/2021/12/09/JVM/"/>
-    <id>https://zhongnf.github.io/2021/12/09/JVM/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/09/JVM/"/>
+    <id>https://zhongnf.gitee.io/2021/12/09/JVM/</id>
     <published>2021-12-09T12:08:30.000Z</published>
     <updated>2021-12-13T11:47:12.751Z</updated>
     
@@ -400,19 +400,19 @@
     
     
     
-    <category term="JVM" scheme="https://zhongnf.github.io/categories/JVM/"/>
+    <category term="JVM" scheme="https://zhongnf.gitee.io/categories/JVM/"/>
     
     
-    <category term="JVM" scheme="https://zhongnf.github.io/tags/JVM/"/>
+    <category term="JVM" scheme="https://zhongnf.gitee.io/tags/JVM/"/>
     
-    <category term="面试" scheme="https://zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    <category term="面试" scheme="https://zhongnf.gitee.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title>Mysql面经35问</title>
-    <link href="https://zhongnf.github.io/2021/12/09/Mysql/"/>
-    <id>https://zhongnf.github.io/2021/12/09/Mysql/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/09/Mysql/"/>
+    <id>https://zhongnf.gitee.io/2021/12/09/Mysql/</id>
     <published>2021-12-09T12:07:30.000Z</published>
     <updated>2021-12-11T07:33:55.070Z</updated>
     
@@ -426,19 +426,19 @@
     
     
     
-    <category term="数据库" scheme="https://zhongnf.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <category term="数据库" scheme="https://zhongnf.gitee.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     
-    <category term="面试" scheme="https://zhongnf.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    <category term="面试" scheme="https://zhongnf.gitee.io/tags/%E9%9D%A2%E8%AF%95/"/>
     
-    <category term="sql" scheme="https://zhongnf.github.io/tags/sql/"/>
+    <category term="sql" scheme="https://zhongnf.gitee.io/tags/sql/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://zhongnf.github.io/2021/12/09/hello-world/"/>
-    <id>https://zhongnf.github.io/2021/12/09/hello-world/</id>
+    <link href="https://zhongnf.gitee.io/2021/12/09/hello-world/"/>
+    <id>https://zhongnf.gitee.io/2021/12/09/hello-world/</id>
     <published>2021-12-09T11:21:41.104Z</published>
     <updated>1985-10-26T08:15:00.000Z</updated>
     
