@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://zhongnf.gitee.io/2021/12/16/Mysql02/</loc>
+    
+    <lastmod>2021-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongnf.gitee.io/2021/12/09/Mysql/</loc>
+    
+    <lastmod>2021-12-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://zhongnf.gitee.io/2021/12/13/Mybatis%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
     
     <lastmod>2021-12-15</lastmod>
@@ -128,15 +146,6 @@
   </url>
   
   <url>
-    <loc>https://zhongnf.gitee.io/2021/12/09/Mysql/</loc>
-    
-    <lastmod>2021-12-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://zhongnf.gitee.io/about/index.html</loc>
     
     <lastmod>2021-12-10</lastmod>
@@ -247,13 +256,6 @@
   </url>
   
   <url>
-    <loc>https://zhongnf.gitee.io/tags/rabbitmq/</loc>
-    <lastmod>2021-12-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://zhongnf.gitee.io/tags/CountDownLatch/</loc>
     <lastmod>2021-12-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -275,7 +277,35 @@
   </url>
   
   <url>
+    <loc>https://zhongnf.gitee.io/tags/Mysql/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongnf.gitee.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongnf.gitee.io/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://zhongnf.gitee.io/tags/redis/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongnf.gitee.io/tags/rabbitmq/</loc>
     <lastmod>2021-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -319,7 +349,7 @@
   </url>
   
   <url>
-    <loc>https://zhongnf.gitee.io/categories/rabbitmq/</loc>
+    <loc>https://zhongnf.gitee.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2021-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -333,14 +363,14 @@
   </url>
   
   <url>
-    <loc>https://zhongnf.gitee.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://zhongnf.gitee.io/categories/redis/</loc>
     <lastmod>2021-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://zhongnf.gitee.io/categories/redis/</loc>
+    <loc>https://zhongnf.gitee.io/categories/rabbitmq/</loc>
     <lastmod>2021-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -362,6 +392,13 @@
   
   <url>
     <loc>https://zhongnf.gitee.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/mybatis/</loc>
+    <lastmod>2021-12-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://zhongnf.gitee.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/mysql/</loc>
     <lastmod>2021-12-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
